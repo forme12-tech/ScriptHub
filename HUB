@@ -1,0 +1,1 @@
+ocal Window = OrionLib:MakeWindow({Name = "SpeedHUB Key System", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionTest"})
