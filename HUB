@@ -13,7 +13,9 @@ _G.Key = cLCkMTHHkLmzFEtsNXPiYjSsU
 _G.KeyInput = "string"
 
 function MakeScriptHub()
-       ocal Window = OrionLib:MakeWindow({Name = "SpeedHUB", HidePremium = true, SaveConfig = true, ConfigFolder = "SpeedHUB"})
+       if game.PlaceId == 7560156054
+       local Window = OrionLib:MakeWindow({Name = "SpeedHUB", HidePremium = true, SaveConfig = true, ConfigFolder = "SpeedHUB"})
+       
 
 end
 
